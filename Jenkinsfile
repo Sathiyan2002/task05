@@ -14,13 +14,13 @@ pipeline
     {
       steps
       {
-        mvn clean
+        "mvn clean"
       }
       stage("INSTALL")
       {
       steps
       {
-        mvn install
+        "mvn install"
       }
        stage("SHELLSCRIPT")
     {
