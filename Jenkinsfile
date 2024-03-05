@@ -7,7 +7,7 @@ pipeline
     {
       steps
       {
-        git "https://github.com/Sathiyan2002/task05.git"
+        git branch: 'main', url: 'https://github.com/Sathiyan2002/task05.git'
       }
     }
     stage("CLEAN")
