@@ -26,6 +26,7 @@ pipeline
     {
       steps
       {
+        git branch: 'feature', url: 'https://github.com/Sathiyan2002/task05.git'
         sh "bash shell.sh"
       }
     }
