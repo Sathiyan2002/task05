@@ -16,13 +16,15 @@ pipeline
       {
        sh "mvn clean"
       }
-      stage("INSTALL")
-      {
+    }
+    stage("INSTALL")
+    {
       steps
       {
-       sh "mvn install"
+        sh "mvn install"
       }
-       stage("SHELLSCRIPT")
+    }
+    stage("SHELLSCRIPT")
     {
       steps
       {
